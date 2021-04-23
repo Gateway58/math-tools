@@ -8,6 +8,7 @@ and i want that you can edit these files yourself pretty easily, you just need v
 (for windows search for mingw and for linux is sudo apt-get install gcc  and other commands)
 
 mingw: https://sourceforge.net/projects/mingw-w64/
+
 vscode: https://code.visualstudio.com/
 [right now all files will be written in c++, because its the one that I have to most experience with and it is preety fast, this may change in the future
 to java, c# or other but NOT to python, because python sux]
