@@ -1,5 +1,5 @@
 #pragma once 
-
+//just here so I don't have to write this all the time and i can change thing with eas 
 #include <iostream>
 #include <math.h>
 #include <fstab.h>
