@@ -1,16 +1,4 @@
-#include <iostream>
-#include <math.h>
-#include <fstab.h>
-#include <fstream>
-#include <ostream>
-#include <sstream>
-#include <condition_variable>
-#include <cerrno>
-#include <string>
-#include <string.h>
-#include <vector>
-#include <stdio.h>
-#include <stdlib.h>
+#include "include.hpp" //https://github.com/Gateway58/math-tools/edit/main/include.hpp
 //this tool should help with problems in which you have to 
 // find (a) number(s) with specific divisors 
 //for instance naboj 23.04.2021 Problem 6
