@@ -6,9 +6,10 @@
 void dostuff(int& mini);
 void dostuffthesequal();  
 using namespace std; 
-int minimum = 0; //minimum to check 
-int maximum = 100;  //the absolute maximum of a 32-bit integer is 2,147,483,647
-vector<int>check = {2, 3}; //what divisors of the numbers 
+int minimum = 0; //minimum to check enter here your minimum you want to check 
+int maximum = 100;  //the absolute maximum of a 32-bit integer is 2,147,483,647 enter here your maximum you want to check 
+vector<int>check = {2, 3}; //what divisors of the numbers enter here what divisors they should have seperat them through a , {if you wanna have 3; 6; 8; 100; then
+// enter {3, 6, 8, 100}; decimals aren't possible yet. 
 int main()
 {
     dostuff(minimum); 
