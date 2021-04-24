@@ -5,9 +5,9 @@
 // | https://math.naboj.org/archive/problems/pdf/math/2020_en_sol.pdf |
 using namespace std; 
 int pluss, minuss, supersame; 
-vector<double>participants = {23, 32}; 
-vector<double>same = {0.25};
-vector<double>super_same {}; 
+vector<double>participants = {23, 32}; // enter here your participants like 22, 13, 15
+vector<double>same = {0.25};    //enter here your same like 0.25 (1/4), 8, 7, 6
+vector<double>super_same {};    //enter here your super dubba same like 3 
 /*Warning cpp and javascript (and probably others too) are really bad when it 
 comes to get the ecaxt value of decimals like 0.1 becomes 0.1000000000000000056
 what's that 56 lurking there? I don't know. 
