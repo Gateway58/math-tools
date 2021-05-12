@@ -185,10 +185,8 @@ for (int i = 0; i < size; i++)
 }
 string FindOutWhatYouWant()
 {
-     //cout << WhatDoYouWant << endl; 
+
     int pinpoint = WhatDoYouWant.find(";");
-   // cout << WhatDoYouWant << endl; 
-    //cout << pinpoint << endl; 
   if(pinpoint == -1)
   { string temps = WhatDoYouWant ; 
   WhatDoYouWant =""; 
@@ -197,7 +195,6 @@ string FindOutWhatYouWant()
      
     string output = WhatDoYouWant.substr(0, pinpoint); 
    WhatDoYouWant = WhatDoYouWant.substr(pinpoint+1);
-  // cout << WhatDoYouWant << endl;  
     return output; 
     
     
