@@ -5,7 +5,7 @@ This repository contains all different math tools that can come in handy in pers
 contests like naboj. 
 These files are only to be edited within the code, more informations are in the comments of the file.
 Every file is it own kind of "Calculator" 
-Format: ![Alt Text](https://ih1.redbubble.net/image.1470587088.2816/st,small,507x507-pad,600x600,f8f8f8.jpg)
+Format: ![10:10](https://ih1.redbubble.net/image.1470587088.2816/st,small,507x507-pad,600x600,f8f8f8.jpg)
 vs code: https://code.visualstudio.com/
 
 [right now all files will be written in c++, this may change in the future
