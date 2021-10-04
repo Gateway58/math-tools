@@ -12,13 +12,13 @@ int main()
     //double = Dezimalzahl. Long + double = Dezimalzahl mit vielen Stellen
     long double x, y; // Seitenlängen
 
-    long double newvar = sqrt + 1; //Rechteck mit radikand * 1
+    long double SummeAusSeiten = sqrt + 1; //Rechteck mit radikand * 1
 
     for (int i = 0; i < 1000; i++) //Heron algorithmus
     {
-        x = newvar / 2; //Die eine Seitenlängen ist das arithmetische Mittel Beider, um das Rechteck immer mehr zu einem Quadrat umzuformen
+        x = SummeAusSeiten / 2; //Die eine Seitenlängen ist das arithmetische Mittel Beider, um das Rechteck immer mehr zu einem Quadrat umzuformen
         y = sqrt / x; //Andere Seitenlängen
-        newvar = x + y; //Adierung der Seitenlängen, um im nächsten Schritt wieder das arithmetische Mittel rauszubekommen
+        SummeAusSeiten = x + y; //Adierung der Seitenlängen, um im nächsten Schritt die Seitenlängen von x und y immer wieter zueinander zu bringen
     }
     std::cout << x << std::endl;
     return 0;
