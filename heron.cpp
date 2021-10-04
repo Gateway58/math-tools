@@ -20,6 +20,6 @@ int main()
         y = sqrt / x; //Andere Seitenlängen
         SummeAusSeiten = x + y; //Adierung der Seitenlängen, um im nächsten Schritt die Seitenlängen von x und y immer wieter zueinander zu bringen
     }
-    std::cout << x << std::endl;
-    return 0;
+    std::cout << x << std::endl; //Schreibt x zu der Console. Kann auch y schreiben, aber x und y sind (theoretisch) gleich.
+    return 0; 
 }
