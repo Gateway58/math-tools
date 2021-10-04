@@ -1,29 +1,25 @@
-   24 #include <fstream>                                                                                                                                                                                           
-   23 #include <iomanip>                                                                                                                                                                                           
-   22 #include <iostream>                                                                                                                                                                                          
-   21 #include <string>                                                                                                                                                                                            
-   20 #include <stdio.h>                                                                                                                                                                                           
-   19 int main()                                                                                                                                                                                                   
-   18 {                                                                                                                                                                                                            
-   17     std::cout << std::setprecision(30); // Output kann 30 Nachkommastellen beinhalten                                                                                                                        
-   16                                                                                                                                                                                                              
-   15     int sqrt = 2; //int = Ganzzahl (Z)                                                                                                                                                                       
-   14                                                                                                                                                                                                              
-   13     //double = Dezimalzahl. Long + double = Dezimalzahl mit vielen Stellen                                                                                                                                   
-   12     long double x, y; // Seitenlängen                                                                                                                                                                        
-   11                                                                                                                                                                                                              
-   10     long double newvar = sqrt + 1; //Rechteck mit radikand * 1                                                                                                                                               
-    9                                                                                                                                                                                                              
-    8     for (int i = 0; i < 1000; i++) //Heron algorithmus                                                                                                                                                       
-    7     {                                                                                                                                                                                                        
-    6         x = newvar / 2; //Die eine Seitenlängen ist das arithmetische Mittel Beider, um das Rechteck immer mehr zu einem Quadrat umzuformen                                                                  
-    5         y = sqrt / x; //Andere Seitenlängen                                                                                                                                                                  
-    4         newvar = x + y; //Addierung der Seitenlängen, um im nächsten Schritt die Seitenlängen immer weiter zusammenzuführen.                                                                                 
-    3     }                                                                                                                                                                                                        
-    2     std::cout << x << std::endl;                                                                                                                                                                             
-    1     return 0;                                                                                                                                                                                                
-  25  }                                                                                                                                                                                                            
-~                                                                                                                                                                                                                  
-~                                                                                                                                                                                                                  
-~                                                                                                                                                                                                                  
-~           
+#include <fstream>
+#include <iomanip>
+#include <iostream>
+#include <string>
+#include <stdio.h>
+int main()
+{
+    std::cout << std::setprecision(30); // Output kann 30 Nachkommastellen beinhalten
+
+    int sqrt = 2; //int = Ganzzahl (Z)
+
+    //double = Dezimalzahl. Long + double = Dezimalzahl mit vielen Stellen
+    long double x, y; // Seitenlängen
+
+    long double newvar = sqrt + 1; //Rechteck mit radikand * 1
+
+    for (int i = 0; i < 1000; i++) //Heron algorithmus
+    {
+        x = newvar / 2; //Die eine Seitenlängen ist das arithmetische Mittel Beider, um das Rechteck immer mehr zu einem Quadrat umzuformen
+        y = sqrt / x; //Andere Seitenlängen
+        newvar = x + y; //Adierung der Seitenlängen, um im nächsten Schritt wieder das arithmetische Mittel rauszubekommen
+    }
+    std::cout << x << std::endl;
+    return 0;
+}
