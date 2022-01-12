@@ -6,6 +6,3 @@ contests like naboj.
 These files are only to be edited within the code, more informations are in the comments of the file.
 Every file is it own kind of "Calculator" 
 vs code: https://code.visualstudio.com/
-
-[right now all files will be written in c++, this may change in the future
-to java, c# or other but NOT to python, because python sux]
